@@ -20,7 +20,8 @@ them from the URLs above (or re-fetch by job ID in Higgsfield) before posting.
 - Instagram (carousel): https://www.instagram.com/p/DaiUl4Mm2_j/
 - X (4 images): https://x.com/Anawaz0000/status/2074872442107924549
 - LinkedIn (carousel, personal profile, link in body): https://linkedin.com/feed/update/urn:li:ugcPost:7480638344809435136
-- Pinterest (cover pin, "Social" board, link → fluorolite.com): https://www.pinterest.com/pin/1017883953300324508
+- Pinterest (@fluorolite, cover pin, "Light Covers" board, link → fluorolite.com): https://www.pinterest.com/pin/584412489194393280
+- ~~Pinterest (posted to wrong account anawaz2938, since disconnected — pin may need manual deletion)~~: https://www.pinterest.com/pin/1017883953300324508
 
 ## Approved copy
 
