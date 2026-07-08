@@ -15,6 +15,13 @@ Note: the PNGs could not be committed to this repo because the session's network
 policy blocks the Higgsfield CDN host (d8j0ntlcm91z4.cloudfront.net). Download
 them from the URLs above (or re-fetch by job ID in Higgsfield) before posting.
 
+## Published 2026-07-08 via Blotato
+
+- Instagram (carousel): https://www.instagram.com/p/DaiUl4Mm2_j/
+- X (4 images): https://x.com/Anawaz0000/status/2074872442107924549
+- LinkedIn (carousel, personal profile, link in body): https://linkedin.com/feed/update/urn:li:ugcPost:7480638344809435136
+- Pinterest (cover pin, "Social" board, link → fluorolite.com): https://www.pinterest.com/pin/1017883953300324508
+
 ## Approved copy
 
 **Slide 1 — Cover (editorial newspaper front page, brand-first, no AI character)**
