@@ -19,10 +19,10 @@ Ayesha 2026-07-09), AI-generated flag ON.
 
 - Video: https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260709_204824_f2cd5e49-ef86-4398-9eb8-f5fc5e70c224.mp4
   (job f2cd5e49; source media 2251ffb1, 0e94d6eb, d7cce23f; acoustic guitar/piano track)
-- Scheduled 2026-07-10 9:00am ET:
-  - Instagram Reel — submission 74dce1f3-f157-47d9-8c51-1316d38b6474
-  - TikTok — submission 9007ed2d-ea6f-4328-ad1d-c1a0d9c2e632
-  - Facebook Reel — submission 23a31cea-fcfa-4e71-957a-64f5ca0ca5e3
+- Published 2026-07-10 9:00am ET (verified live):
+  - Instagram Reel — https://www.instagram.com/reel/DanP4cHjSFc/
+  - TikTok — https://www.tiktok.com/@fluorolite/video/7660883310717046029
+  - Facebook Reel — https://facebook.com/reel/1353741676734984/
 - CTA: engagement ("Send a photo — we've probably seen it before.")
 
 Captions live in the Blotato submissions; check status with blotato_get_post_status
