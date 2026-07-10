@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Pipeline</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; padding: 48px 40px 80px; }
+  .page-title { font-size: 26px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #ffffff; margin-bottom: 64px; }
+  .story { margin-bottom: 72px; }
+  .story-meta { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 22px; }
+  .story-label { font-size: 10px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.18); margin-bottom: 6px; }
+  .story-date { font-size: 20px; font-weight: 700; color: #ffffff; letter-spacing: 0.2px; margin-bottom: 5px; line-height: 1.15; }
+  .story-title { font-size: 13px; font-weight: 400; color: rgba(255,255,255,0.35); letter-spacing: 0.3px; }
+  .download-btn { display: flex; align-items: center; gap: 7px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.55); font-size: 10px; font-weight: 600; letter-spacing: 1.8px; text-transform: uppercase; padding: 9px 16px; border-radius: 7px; cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s; flex-shrink: 0; }
+  .download-btn:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.9); }
+  .row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 10px; }
+  .row-label { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.12); margin-bottom: 8px; margin-top: 4px; }
+  .slide-wrap { position: relative; width: 100%; aspect-ratio: 3 / 4; background: #141414; border-radius: 14px; overflow: hidden; transition: transform 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94); will-change: transform; }
+  .slide-wrap:hover { transform: scale(1.04); z-index: 10; }
+  .slide-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 14px; }
+  hr.divider { border: none; border-top: 1px solid rgba(255,255,255,0.05); margin: 0 0 56px; }
+  .row ~ .row-label { margin-top: 56px; }
+</style>
+</head>
+<body>
+
+<p class="page-title">Content Pipeline</p>
+
+<section class="story">
+  <div class="story-meta">
+    <div>
+      <p class="story-label">Story 01</p>
+      <p class="story-date">July 8</p>
+      <p class="story-title">The Hotel Save — 50 covers, shipped next day</p>
+    </div>
+    <button class="download-btn" onclick="downloadAll()">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 16l-6-6h4V4h4v6h4l-6 6zm-6 2h12v2H6z"/></svg>
+      Download
+    </button>
+  </div>
+
+  <p class="row-label">Image version</p>
+  <div class="row">
+    <div class="slide-wrap"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260708_145314_e5f31e0f-3d88-4084-9021-21f5bb8a89a5.png" alt="Slide 1"></div>
+    <div class="slide-wrap"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260708_145318_48ff6ceb-09c6-4cb6-a032-1adad1014ed7.png" alt="Slide 2"></div>
+    <div class="slide-wrap"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260708_145324_4f1fdff7-2ec6-4dc6-9913-78852aaa71df.png" alt="Slide 3"></div>
+    <div class="slide-wrap"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260708_145327_e6e02fb6-f184-4aab-8d49-8222b5559628.png" alt="Slide 4"></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<script>
+  function downloadAll() {
+    document.querySelectorAll('.slide-wrap img').forEach(img => window.open(img.src, '_blank'));
+  }
+</script>
+</body>
+</html>
