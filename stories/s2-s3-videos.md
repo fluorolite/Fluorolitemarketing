@@ -9,10 +9,10 @@ Ayesha 2026-07-09), AI-generated flag ON.
 
 - Video: https://d8j0ntlcm91z4.cloudfront.net/user_3ErNMw6OAmc4RFQOuKocqB2A3xu/hf_20260709_203341_039fbd76-9304-45e6-a2be-ba68d3617f2b.mp4
   (job 039fbd76; start frame job df93ec5d; 12s; whimsical orchestral track)
-- Scheduled 2026-07-09 5:30pm ET:
-  - Instagram Reel — submission fe600478-93f7-4206-a7f9-e0226e3795ac
-  - TikTok — submission 31598a1a-eeb2-479d-8083-771dd264b0da
-  - Facebook Reel (Fluorolite Plastics page) — submission 4a000a34-ca25-4b8f-969e-e3c2bc9e43f0
+- Published 2026-07-09 5:30pm ET (verified live):
+  - Instagram Reel — https://www.instagram.com/reel/DallfY1j8DE/
+  - TikTok — https://www.tiktok.com/@fluorolite/video/7660643684295118094
+  - Facebook Reel — https://facebook.com/reel/1748384106342606/
 - CTA: talk to a human (508-788-1200, quote within the hour with part number)
 
 ## Story 03 — "Yellowed for decades" (real product photos: Old Lens.jpg + flat sheet photos)
